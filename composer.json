@@ -1,0 +1,16 @@
+{
+    "name": "antanas/string",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antanas Strumila",
+            "email": "strumila.antanas@gmail.com"
+        }
+    ],
+    "require": {}
+}

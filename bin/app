@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+use App\StringUtil;
+
+require_once dirname(__DIR__).'/vendor/autoload.php';
+
+echo StringUtil::getDuplicateLetters('Rsuperr textss');
