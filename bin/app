@@ -5,4 +5,10 @@ use App\StringUtil;
 
 require_once dirname(__DIR__).'/vendor/autoload.php';
 
-echo StringUtil::getDuplicateLetters('Rsuperr textss');
+if (!isset($argv[1])) {
+    echo 'Please provide not empty string. Example: php ./bin/app "Example text"';
+
+    return;
+}
+
+echo StringUtil::getDuplicateLetters($argv[1]);
